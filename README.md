@@ -2,11 +2,11 @@
 <br>
 
 <h2> Este foi o projeto que desenvolvi com o auxilio do professor Diego Fernandes no YouTube do Rocketseat</h2>
-<p> O projeto consiste em uma API RESt feito em Node JS, express e utilizando o MongoDB Atlas. São 7 operações, sendo uma de cadastro de Usuario, outra de autenticação com token, usando JWT. </p>
+<p> O projeto consiste em uma API RESt feito em Node JS, express e utilizando o MongoDB Atlas. São 7 operações, sendo uma de cadastro de usuário, outra de autenticação com token, usando JWT. </p>
 
 
 <h2> Introdução </h2>
-O objetivo é criar um sistema para disponibilizar uma lista com as usuários cadastrados no banco de dados. Estes usuários podem cadastrar projetos e cada projeto pode conter tarefas. O sistema faz a verificação dos dados do usuarios, para que ele possa casatrar seus peojetos, e retorna um erro caso o usuário não esteja cadastrado.
+O objetivo é criar um sistema para disponibilizar uma lista com as usuários cadastrados no banco de dados. Estes usuários podem cadastrar projetos e cada projeto pode conter tarefas. O sistema faz a verificação dos dados do usuarios, para que ele possa cadatrar seus projetos, e retorna um erro caso o usuário não esteja cadastrado.
 
 ## Tecnologias utilizadas
 * VS Code
@@ -17,11 +17,11 @@ O objetivo é criar um sistema para disponibilizar uma lista com as usuários ca
 * Mongoose
 * Dotenv
 * MongoDB
-*JWt
-*Bcrypt
-*Bodyparser
-*Nodemailer
-*Handlebars
+* JWt
+* Bcrypt
+* Bodyparser
+* Nodemailer
+* Handlebars
 
 ## Endpoints
 
@@ -33,7 +33,7 @@ O objetivo é criar um sistema para disponibilizar uma lista com as usuários ca
 
 | GET    | /                 | Retorna todos os projetos criados, necessário passar token do usuário. <br>
 
-| GET    | /:project         | Mostra um Usurario e seus projetos e tasks <br>
+| GET    | /:project         | Mostra um usuário e seus projetos e tasks <br>
 
 | POST   | /:project:Id      | Cria um novo projeto <br>
 
